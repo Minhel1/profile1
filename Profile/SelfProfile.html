@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav>
+      <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+        Minhel <span>Reyes</span>
+      </div>
+      <div class="nav-container">
+        <div class="links">
+          <a
+            href="#home"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+            >Home</a
+          >
+          <a
+            href="#skills"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+            >Skills</a
+          >
+          <a
+            href="#intro"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+            >Introduction</a
+          >
+          <a
+            href="#services"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="400"
+            >Services</a
+          >
+          <a
+            href="#contact"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+            >Contact</a
+          >
+        </div>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      <div class="dropdown">
+        <div class="links">
+          <a href="#home">Home</a>
+          <a href="#skills">Skills</a>
+          <a href="#intro">Introduction</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO / HOME -->
+    <section id="home">
+      <div class="main-container">
+        <div class="content">
+          <h1
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="600"
+          >
+            Hi, I'm <span>Minhel Octavio Reyes</span>
+          </h1>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="800"
+            class="typewriter"
+          >
+            I'm a <span class="typewriter-text"></span><label>|</label>
+          </div>
+          <p
+            data-aos="flip-down"
+            data-aos-duration="1500"
+            data-aos-delay="1000"
+          >
+            I am a passionate
+            <strong>Java programmer and web developer</strong> with experience
+            in building scalable, efficient, and user-friendly applications. My
+            expertise spans from <strong>back-end Java development</strong> to
+            <strong>front-end and full-stack web solutions</strong>.
+          </p>
+          <div class="social-links">
+            <a href="https://linkedin.com" target="_blank">
+              <i
+                class="fa-brands fa-linkedin"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="1200"
+              ></i>
+            </a>
+            <a href="https://github.com" target="_blank">
+              <i
+                class="fa-brands fa-github"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="1300"
+              ></i>
+            </a>
+            <a href="https://facebook.com" target="_blank">
+              <i
+                class="fa-brands fa-facebook"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="1400"
+              ></i>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <i
+                class="fa-brands fa-twitter"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="1500"
+              ></i>
+            </a>
+          </div>
+          <button
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="1700"
+          >
+            Download CV
+          </button>
+        </div>
+        <div class="image" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="main.png" alt="Profile picture of Minhel Octavio Reyes" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2 data-aos="fade-up" data-aos-duration="1500">My Skills</h2>
+      <div class="skills-container">
+        <div class="skill" data-aos="zoom-in" data-aos-delay="200">
+          <i class="fa-brands fa-java"></i>
+          <h3>Java Development</h3>
+          <p>
+            Strong background in building robust back-end systems using Java,
+            OOP principles, and frameworks.
+          </p>
+        </div>
+        <div class="skill" data-aos="zoom-in" data-aos-delay="400">
+          <i class="fa-solid fa-code"></i>
+          <h3>Web Development</h3>
+          <p>
+            Experience in creating responsive websites with HTML, CSS,
+            JavaScript, and React.
+          </p>
+        </div>
+        <div class="skill" data-aos="zoom-in" data-aos-delay="600">
+          <i class="fa-solid fa-database"></i>
+          <h3>Database Management</h3>
+          <p>
+            Proficient in SQL and NoSQL databases for designing scalable and
+            efficient solutions.
+          </p>
+        </div>
+        <div class="skill" data-aos="zoom-in" data-aos-delay="800">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h3>Full-Stack Solutions</h3>
+          <p>
+            Capable of handling both client-side and server-side development for
+            complete web applications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section id="intro">
+      <h2 data-aos="fade-up" data-aos-duration="1500">About Me</h2>
+      <p data-aos="fade-right" data-aos-delay="300">
+        I am an enthusiastic developer who thrives on solving challenges through
+        technology. With a solid foundation in
+        <strong>Java programming</strong> and <strong>web development</strong>,
+        I enjoy transforming ideas into functional applications that provide
+        real value. I am a quick learner, adaptable, and always eager to expand
+        my knowledge in new technologies.
+      </p>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <h2 data-aos="fade-up" data-aos-duration="1500">Services</h2>
+      <div class="services-container">
+        <div class="service" data-aos="flip-left" data-aos-delay="200">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h3>Custom Web Development</h3>
+          <p>
+            Design and build responsive, user-friendly websites tailored to
+            client needs.
+          </p>
+        </div>
+        <div class="service" data-aos="flip-left" data-aos-delay="400">
+          <i class="fa-solid fa-server"></i>
+          <h3>Back-End Development</h3>
+          <p>
+            Create scalable server-side systems with Java and modern frameworks.
+          </p>
+        </div>
+        <div class="service" data-aos="flip-left" data-aos-delay="600">
+          <i class="fa-solid fa-database"></i>
+          <h3>Database Solutions</h3>
+          <p>
+            Design and optimize relational and non-relational databases for
+            performance.
+          </p>
+        </div>
+        <div class="service" data-aos="flip-left" data-aos-delay="800">
+          <i class="fa-solid fa-cogs"></i>
+          <h3>Full-Stack Solutions</h3>
+          <p>End-to-end application development from concept to deployment.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact">
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <p>
+          Have a project idea or want to collaborate? Feel free to reach out
+          below!
+        </p>
+
+        <form
+          action="mailto:your.email@example.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div class="social-links" style="margin-top: 25px">
+          <a href="https://github.com/yourusername" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="mailto:your.email@example.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h2>Minhel <span>Reyes</span></h2>
+          <p>Passionate Java & Web Developer</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#skills">Skills</a>
+          <a href="#intro">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://linkedin.com" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://facebook.com" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://twitter.com" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Minhel Reyes | All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+  </body>
+</html>
